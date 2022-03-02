@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../imgs/favicon.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contacto</title>
+</head>
+    <body>
+       
+        <header>
+            <nav class="nav">
+                <ul>
+                    <li class="nav__links"> 
+                        <a class="nav__links--inactive" href="../index.html">Inicio</a>
+                    </li>  
+                    <li class="nav__links"> 
+                        <a class="nav__links--inactive" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav__links"> 
+                        <a class="nav__links--inactive" href="servicios.html">Servicios</a>
+                    </li>     
+                    <li class="nav__links"> 
+                        <a class="nav__links--inactive" href="hoteles.html">Hoteles</a>
+                    </li>
+                    <li class="nav__links"> 
+                        <a class="nav__links--active" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <h1 class="nav__titulo">Contacto</h1>      
+        </header>
+
+        <main>
+           <section class="sectioncontacto">
+             <form action="contacto.html" method="get">
+                <div>
+                    <label class="form__label" for="nombre"> Nombre y apellido</label>
+                    <br>
+                    <input class="form__label" type="text">
+                </div>         
+                    <br>
+                    <br>
+
+                <div>
+                    <label class="form__label" for="Sexo"> Sexo </label>
+                    <br>
+                    <label class="form__label" for="masculino"> Masculino</label> 
+                    <input type="radio" name="Sexo" id="">
+                    <label class="form__label" for="femenino"> Femenino</label> 
+                    <input class="form__label" type="radio" name="Sexo" id="">
+                </div>        
+                    <br>  
+                    <br>
+
+                <div>
+                    <label class="form__label" for="email"> Email</label>
+                    <br>
+                    <input class="form__label" type="email">
+                </div>         
+                    <br>
+                    <br>
+
+                <div>
+                    <label class="form__label" for="mensaje"> Mensaje </label>
+                    <br>
+                    <textarea class="form__textarea" id="" cols="50" rows="6"></textarea>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+
+                <div>
+                    <label class="form__label" for="provincia"> Provincia </label>
+                    <br>
+                    <br>
+                    <select class="form__label" name="nombreprovincia" id="">
+                    <option class="form__label" value="buenosaires">Buenos Aires</option>
+                    <option class="form__label" value="cordoba">Córdoba</option>
+                    <option class="form__label" value="mendoza">Mendoza</option>
+                    <option class="form__label" value="lapampa">La Pampa</option>
+                    </select>
+                    </div>
+                    <br>
+                </div>
+                
+                <div>
+                    <input class="form__label" type="submit"  value="Enviar Formulario">
+                    <input class="form__label" type="reset" value="Limpiar Formulario">
+                </div>     
+              </form>
+            </section>
+            <br>
+            <hr>
+            <br>
+            
+            <section>
+                <iframe class="mapaubicacion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1272.7708868253949!2d-65.24454547753376!3d-26.766199297508994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d7e9baf4adf%3A0x21940d3d39d1e712!2sCentro%20Comercial%20Las%20Quintas!5e1!3m2!1ses-419!2sar!4v1645397168072!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+            </section>
+                <br>
+                <hr>
+                <br>
+        </main> 
+        
+        <footer class="footer">     
+            <h3 class="footer__email">info@tutuc.com.ar</h3> 
+            <h3  class="footer__telefono">381-55555555</h3> 
+            <h3 class="footer__direccion">Galería Quintas 2, Local 12, Lomas de Tafí</h3> 
+            <h3 class="footer__horario">Lunes a Viernes 8 a 20hs</h3>      
+        </footer>
+
+    </body>
+</html>
